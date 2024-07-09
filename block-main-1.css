@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+
+.background-one{
+    background: url(../img/459915568b9429ca7085.jpg) fixed no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    /* để <100 kích thích thị giác kéo xuống */
+}
+.background-two{
+    background: url(../img/cde8e92777e5d5bb8cf4.jpg) fixed no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+
+.text{
+    width: 35vw;
+}
+.text-two{
+    background-color: rgba(113, 121, 118, 0.5);
+    padding: 50px;
+}
+/* Để chỉ làm mờ background của một phần tử mà không ảnh hưởng đến độ mờ của văn bản bên trong, bạn có thể sử dụng các kỹ thuật khác nhau như sử dụng một phần tử phụ hoặc sử dụng màu nền với độ trong suốt thông qua RGBA hoặc background: linear-gradient(). */
+.video{
+    width: 40vw;
+}
+.video iframe{
+    width: 100%;
+    height: calc(40vw*1/(560/315));
+    /* 560, 315 is provied by youtube */
+}
+.inner-one{
+    background-color: aliceblue;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inner-two{
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.margin{
+    height: 100vh;
+    background-color: aquamarine;
+}
