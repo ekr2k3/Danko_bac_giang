@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-4{
+    height: 70vh;
+    width: 100%;
+    border: solid;
+    background-color: rgb(141,5,5);
+    color: rgb(246, 203, 174);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inner-right-4{
+    height: 64%;
+    width: 40%;
+    overflow-y: scroll; /* Để thanh cuộn dọc vẫn xuất hiện */
+    overflow-x: hidden; /* Ẩn thanh cuộn ngang */
+}
+
+.inner-right-4 ul{
+    list-style: decimal;
+    margin-left: 24px;
+}
+
+.inner-right-4 ul li{
+    padding: 5px;
+    border-bottom: solid 1px;
+}
+
+.inner-left-4{
+    height: 64%;
+    width: fit-content;
+    /* auto thì ==> = width nội dung = fit-content*/
+    border: solid;
+}
+.inner-left-4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* object-fit: cover; chấp nhận vỡ ảnh*/
+    /* muốn dùng cover phải cài width và height trước */
+}
