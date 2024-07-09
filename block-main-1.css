@@ -5,14 +5,14 @@
 }
 
 .background-one{
-    background: url(../img/459915568b9429ca7085.jpg) fixed no-repeat center center;
+    background: url(459915568b9429ca7085.jpg) fixed no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 80vh;
     /* để <100 kích thích thị giác kéo xuống */
 }
 .background-two{
-    background: url(../img/cde8e92777e5d5bb8cf4.jpg) fixed no-repeat center center;
+    background: url(cde8e92777e5d5bb8cf4.jpg) fixed no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 80vh;
