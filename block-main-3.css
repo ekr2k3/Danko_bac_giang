@@ -4,6 +4,12 @@
 }
 
 .background-slide-3 {
+    color: rgb(246, 203, 174);
+    text-shadow:  
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000;
     border: solid 0.01px;
     background: url(2f3b7bf7e535476b1e24.jpg) fixed no-repeat center center;
     background-size: cover;
