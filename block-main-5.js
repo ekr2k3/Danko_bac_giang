@@ -15,7 +15,7 @@ var url =[
     "2024.4.2 Dự án Danko Riverside Bắc Giang _compressed-hình ảnh-19.jpg"
 ]
 
-var path = "../public/img/";
+var path = "";
 
 function eventB(i){
     buttons[i].onclick = ()=>{
