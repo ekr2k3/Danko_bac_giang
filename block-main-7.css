@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main-7{
+    color: rgb(246, 203, 174);
+    text-shadow:  
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000;
+    font-size: 20px;
+}
+.slider-7 ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    width: max-content;
+
+    animation: runSlide 32s linear infinite;
+}
+
+.slider-7 img {
+    width: 20vw;
+    height: calc(20vw * 9 / 16);
+    margin-right: 10px;  /* Added margin here */
+    /* border: solid rgb(141, 5, 5) 1px; */
+    /* ẩn đi vì cho vào khó tính translatex dõ là thêm 2 px * 8 mà nó vẫn sai
+    độ sai lệch translate ==> khựng */
+}
+
+.slider-7 {
+    overflow: hidden;
+    /* làm mất thanh cuộn */
+}
+
+@keyframes runSlide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc((20vw + 10px) * -8));
+    }
+}
