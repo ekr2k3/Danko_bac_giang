@@ -40,7 +40,6 @@
     width: fit-content;
     /* auto thì ==> = width nội dung = fit-content*/
     border: solid;
-     font-size: 11px;
 }
 .inner-left-4 img{
     width: 100%;
