@@ -457,7 +457,13 @@
 
 
     <script src="app.img.slide.js"></script>
-
+    <script>
+        // Kiểm tra xem người dùng có đang sử dụng thiết bị di động không
+        if (/Mobi|Android/i.test(navigator.userAgent)) {
+            // Chuyển hướng đến phiên bản desktop
+            window.location.href = 'desktop-version-url';
+        }
+    </script>
 </body>
 
 </html>
