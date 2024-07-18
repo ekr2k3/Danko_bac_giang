@@ -458,11 +458,19 @@
 
     <script src="app.img.slide.js"></script>
     <script>
-        // Kiểm tra xem người dùng có đang sử dụng thiết bị di động không
-        if (/Mobi|Android/i.test(navigator.userAgent)) {
-            // Chuyển hướng đến phiên bản desktop
-            window.location.href = 'desktop-version-url';
+        function redirectToDesktop() {
+            // Kiểm tra xem người dùng có đang sử dụng thiết bị di động không
+            if (/Mobi|Android/i.test(navigator.userAgent)) {
+                // Chuyển hướng đến phiên bản desktop
+                window.location.href = 'desktop-version-url';
+            }
         }
+
+        // Kiểm tra ngay khi tải trang
+        redirectToDesktop();
+
+        // Kiểm tra lại mỗi 5 giây
+        setInterval(redirectToDesktop, 5000);
     </script>
 </body>
 
