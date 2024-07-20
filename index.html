@@ -450,7 +450,11 @@
         </div>
     </footer>
     <!-- footer -->
+    <a href="tel:+84329302701">Call Now</a>
 
+  
+       
+    
 
   
     <script src="block-main-5.js"></script>
@@ -468,9 +472,12 @@
 
         // Kiểm tra ngay khi tải trang
         redirectToDesktop();
-
+        
         // Kiểm tra lại mỗi 5 giây
         setInterval(redirectToDesktop, 5000);
+         document.getElementById('callButton').addEventListener('click', function() {
+            window.location.href = 'tel:+1234567890'; // Thay số điện thoại bằng số bạn muốn gọi
+        });
     </script>
 </body>
 
